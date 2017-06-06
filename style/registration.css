@@ -1,0 +1,58 @@
+body {
+    background-color:#29ABE2;
+    width:100%;
+      
+}
+.registration{
+    width: 300px;
+    margin:100px auto;
+    word-wrap: break-word; 
+    
+}
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding:5px 10px;
+    box-sizing:border-box;
+    margin-bottom: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#sub {
+    width:100%;
+    padding: 5px;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    background-color: #29ABE2;
+}
+#sub:hover{
+    background-color:#2961E2; 
+}
+
+#test{
+    color:white;
+    font-size:40px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style: none;
+    color:white;
+    padding:0;
+}
+.err {
+    width:100%;
+    background-color:#F05F70;
+    border-radius:5px;
+    padding:3px 10px;
+    box-sizing:border-box;
+}
+
+p {
+    color:white;
+}

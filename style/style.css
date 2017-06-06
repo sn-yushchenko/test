@@ -1,0 +1,181 @@
+/*Block 1*/
+
+#wrapper {
+    width: 600px;
+}
+
+#main {
+    width: 100%;
+}
+
+#logo {
+    text-align: left;
+    color: #29ABE2;
+    font-size: 30px;
+}
+
+.username {
+    text-align: right;
+    font-size: 20px;
+    color: #FF00AE;
+}
+
+.entryField {
+    float: right;
+    margin-bottom: 10px;
+    resize: none;
+    border-radius: 5px;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+.buttonComment {
+    display: block;
+    clear: both;
+    float: right;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+hr {
+    clear: both;
+}
+
+#autorization {
+    float: left;
+    margin-bottom: 20px;
+    margin-left: 63px;
+}
+
+input[name="email"],
+input[name="password"] {
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#buttonEntry {
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#registration {
+    color: #3A03CE;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.buttonComment:hover,
+#buttonEntry:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+
+/*Block 2*/
+
+#allComments {
+    width: 100%;
+}
+
+.bodycomment {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.date {
+    float: left;
+    margin-left: 20px;
+    color: #C1C1C1;
+}
+
+.author {
+    float: left;
+    color: #FF00AE;
+}
+
+.comment {
+    clear: both;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.like {
+    width: 20px;
+    height: 25px;
+    background-image: url("/test/images/sp.png");
+    background-position: 0px 65px;
+    float: left;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.dislike {
+    width: 20px;
+    height: 25px;
+    background-image: url("/test/images/sp.png");
+    background-position: 0px 30px;
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.countLike,
+.countdisLike {
+    float: left;
+    margin-left: 5px;
+}
+
+.likes {
+    color: #6E6E6E;
+}
+
+.respond {
+    float: left;
+    cursor: pointer;
+}
+
+.response {
+   
+    margin-left: 70px;
+    display: none;
+    box-sizing:content-box;
+}
+
+#load {
+    display: none;
+}
+
+ul {
+    padding-left: 70px;
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+ul:first-child {
+    padding-left: 0px;
+}
+li{
+    margin-top:5px;
+}
+.newCimment{
+    width:100%;
+}
+.delete{
+    float:left;
+    margin-left:20px;
+    cursor:pointer;
+}
+#newBut {
+    display: none;
+}
